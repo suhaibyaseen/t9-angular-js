@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="T9Sada">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular JS T9 keypad</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/roboto-fontface/css/roboto-fontface.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="T9Ctrl">
+<div class="container">
+    <textarea disabled>{{ text }}</textarea>
+    <suggestions></suggestions>
+    <key ng-repeat="button in buttons"></key>
+</div>
+
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<!-- endbower -->
+<script src="app.js"></script>
+</body>
+</html>

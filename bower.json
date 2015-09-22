@@ -1,0 +1,21 @@
+{
+  "name": "Sada T9",
+  "version": "0.0.0",
+  "authors": [
+    "David <tawbsl@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "sada.davidm.club",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "roboto-fontface": "~0.4.3"
+  }
+}
